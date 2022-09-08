@@ -20,6 +20,19 @@ const Work = () => {
           <div className="third">third</div>
           <div className="third">third</div>
         </div>
+        {/* <div className="two">
+          <div className="half">half</div>
+          <div className="half">half</div>
+        </div> */}
+        {/* <div className="three">
+          <div className="third">third</div>
+          <div className="third">third</div>
+          <div className="third">third</div>
+        </div>
+        <div className="two">
+          <div className="half">half</div>
+          <div className="half">half</div>
+        </div> */}
       </div>
     </div>
   );
