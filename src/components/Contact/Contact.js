@@ -11,7 +11,7 @@ const Contact = () => {
           <span>1 S 1st Street,</span>
           <span>Brooklyn, NY, 10010</span>
           <span>(123)-456-7890</span>
-          <a href="michael@deptofmusic.com" className="email">
+          <a href="mailto:michael@deptofmusic.com" className="email">
             info@deptofmusic.com
           </a>
           <div className="person">
