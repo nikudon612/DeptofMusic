@@ -1,19 +1,16 @@
 .team {
   height: 100vh;
-  background-color: #85a199;
+  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
   color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   .team-container {
-    .team-title {
-      font-size: 32px;
-      font-weight: 700;
-    }
     .team-info {
       display: flex;
       flex-direction: column;
-      width: 200px;
+      width: 250px;
       height: 475;
       .employee {
         font-size: 24px;
@@ -32,13 +29,23 @@
     }
   }
 }
+.team-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-right: 450px;
+}
 .image {
   padding-left: 35px;
   .image-border {
     background-color: whitesmoke;
   }
   img {
-    width: 270px;
+    width: 350px;
     padding: 10px;
   }
+}
+.team-outer-container {
+  display: flex;
 }
