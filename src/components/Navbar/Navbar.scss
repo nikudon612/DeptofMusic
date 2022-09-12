@@ -46,6 +46,10 @@
   justify-content: space-evenly;
 }
 
+.links a:hover {
+  cursor: pointer;
+}
+
 .links a {
   text-decoration: none;
   color: #121414;
@@ -55,15 +59,29 @@
 }
 
 .hamburger {
-  opacity: 0;
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    position: sticky;
+  }
 }
 
 @media only screen and (max-width: 948px) {
   .links {
-    opacity: 0;
+    display: none;
   }
   .hamburger {
-    opacity: 1;
+    display: block;
+    height: 50px;
     padding-right: 35px;
+    margin-right: 35px;
+    border: 1px solid black;
+    svg {
+      overflow: visible;
+      position: relative;
+      float: left;
+    }
   }
 }
