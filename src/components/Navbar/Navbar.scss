@@ -53,3 +53,17 @@
   font-weight: 700;
   padding: 25px;
 }
+
+.hamburger {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 948px) {
+  .links {
+    opacity: 0;
+  }
+  .hamburger {
+    opacity: 1;
+    padding-right: 35px;
+  }
+}

@@ -11,11 +11,16 @@ const Work = () => {
       <div className="grid">
         <div className="one">
           <div className="full">
+            {/* ALTERNATIVE VIEW OF 50VH FEATURED */}
+
             {/* <img src={Zippo} alt="nationwide thumbnail" />
             <div className="project-desc-full">
               <p>Track Title</p>
               <p>Project Info</p>
             </div> */}
+
+            {/* ALTERNATIVE VIEW OF 50VH FEATURED */}
+
             <img src={Zippo} alt="nationwide thumbnail" />
             <div className="project-desc">
               <p>Track Title</p>
@@ -62,6 +67,22 @@ const Work = () => {
             </div>
           </div>
         </div>
+        {/* <div className="two">
+          <div className="half">
+            <img src={Nationwide} alt="nationwide thumbnail" />
+            <div className="project-desc">
+              <p>Track Title</p>
+              <p>Project Info</p>
+            </div>
+          </div>
+          <div className="half">
+            <img src={Absolut} alt="nationwide thumbnail" />
+            <div className="project-desc">
+              <p>Track Title</p>
+              <p>Project Info</p>
+            </div>
+          </div>
+        </div> */}
       </div>
     </div>
   );
