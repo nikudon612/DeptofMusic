@@ -1,3 +1,9 @@
+@import url("https://p.typekit.net/p.css?s=1&k=fzf4moa&ht=tk&f=139.140.175.176.143.144.147.148.156.157.161.162&a=13260605&app=typekit&e=css");
+
+@font-face {
+  font-family: TrueNorth-Regular;
+  src: url(../../Assets/Fonts/TrueNorth-Regular.otf);
+}
 .navbar {
   // position: sticky;
   top: 0;
@@ -8,6 +14,9 @@
   align-items: center;
   justify-content: space-between;
   background-color: #85a199;
+  font-family: TrueNorth-Regular;
+  // font-family: proxima-nova, sans-serif;
+  // font-style: normal;
 }
 
 .headerContainer {
