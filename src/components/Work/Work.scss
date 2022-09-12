@@ -116,5 +116,56 @@ img {
   align-items: center;
 
   /* transition effect. not necessary */
-  transition: opacity 0.2s;
+  // transition: opacity 0.2s;
+  transition: opacity 0s, all 0.2s ease-in-out;
 }
+
+@media only screen and (max-width: 1024px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    .one {
+      width: 100%;
+      height: auto;
+      img {
+        width: 100%;
+      }
+      .full {
+        flex: 1;
+        .project-desc {
+          width: 100%;
+          // height: auto;
+        }
+      }
+    }
+    .two {
+      flex-direction: column;
+      .half {
+        width: 100%;
+        height: auto;
+        img {
+          width: 100%;
+        }
+        .project-desc {
+          // height: auto;
+          width: 100%;
+        }
+      }
+    }
+    .three {
+      flex-direction: column;
+      .third {
+        width: 100%;
+        height: auto;
+        img {
+          width: 100%;
+        }
+        .project-desc {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
