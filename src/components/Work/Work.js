@@ -1,6 +1,6 @@
 import React from "react";
 import "./Work.scss";
-import Nationwide from "../../Assets/Videos/nationwide.mov";
+// import Nationwide from "../../Assets/Videos/nationwide.mov";
 
 const Work = () => {
   return (
@@ -9,7 +9,7 @@ const Work = () => {
         <div className="one">
           <div className="full">
             <video width="100%" height="100%" controls>
-              <source src={Nationwide} type="video/mp4" />
+              {/* <source src={Nationwide} type="video/mp4" /> */}
             </video>
             {/* <iframe
               title="full video"
