@@ -69,3 +69,22 @@
   flex-direction: row;
   padding-bottom: 75px;
 }
+
+@media only screen and (max-width: 760px) {
+  .team-title {
+    padding-right: 0px;
+  }
+  .team-inner-container {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 100px;
+  }
+  .image {
+    padding-left: 0px;
+    img {
+      padding: 0px;
+      padding-top: 25px;
+    }
+  }
+}

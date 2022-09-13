@@ -17,9 +17,9 @@ const Footer = () => {
       <div className="outer-link-container">
         <div className="linkContainer">
           <div className="socials">
-            <a href="">Instagram</a>
-            <a href="">Twitter</a>
-            <a href="">Facebook</a>
+            <a href="https://www.instagram.com/freemanagogo/">Instagram</a>
+            <a href="twitter.com">Twitter</a>
+            <a href="facebook.com">Facebook</a>
           </div>
           <div className="pageLinks">
             <Link to="work" smooth={true} duration={750}>
