@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.scss";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -21,9 +22,15 @@ const Footer = () => {
             <a href="">Facebook</a>
           </div>
           <div className="pageLinks">
-            <a href="">Work</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+            <Link to="work" smooth={true} duration={750}>
+              Work
+            </Link>
+            <Link to="about" smooth={true} duration={750}>
+              About
+            </Link>
+            <Link to="contact" smooth={true} duration={750}>
+              Contact
+            </Link>
           </div>
         </div>
         <div className="trademark">
