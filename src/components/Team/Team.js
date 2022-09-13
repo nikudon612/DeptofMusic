@@ -2,7 +2,7 @@ import React from "react";
 import "./Team.scss";
 import Freeman from "../../Assets/deptstaff-1.jpg";
 import Kaplan from "../../Assets/deptstaff-2.jpg";
-import Oscar from "../../Assets/oscar.jpg";
+// import Oscar from "../../Assets/oscar.jpg";
 
 const Team = () => {
   return (
