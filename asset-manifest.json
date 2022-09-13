@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26efdf5c.css",
+    "main.js": "/static/js/main.7effce2f.js",
+    "static/media/absolut.png": "/static/media/absolut.466a7692ef66a3e7a383.png",
+    "static/media/barbarian.png": "/static/media/barbarian.ee829801bd11ed78bacf.png",
+    "static/media/Nationwide.png": "/static/media/Nationwide.ff6b9644c6732c5105a2.png",
+    "static/media/zipp.png": "/static/media/zipp.1f937c5fe5393ed541d0.png",
+    "static/media/DoM-BrandAssets_LogoMark-V1.png": "/static/media/DoM-BrandAssets_LogoMark-V1.ead33255aa970c4b0fd3.png",
+    "static/media/deptstaff-2.jpg": "/static/media/deptstaff-2.735035f52f96d4e93e0a.jpg",
+    "static/media/deptstaff-1.jpg": "/static/media/deptstaff-1.99fd99e36b3edc1400ad.jpg",
+    "static/media/DoM-BrandAssets_Logo1-Wordmark-Black.png": "/static/media/DoM-BrandAssets_Logo1-Wordmark-Black.a4bad1c138455a0ff7cb.png",
+    "static/media/TrueNorth-Regular.otf": "/static/media/TrueNorth-Regular.6367e37fe8d37aa798c8.otf",
+    "index.html": "/index.html",
+    "main.26efdf5c.css.map": "/static/css/main.26efdf5c.css.map",
+    "main.7effce2f.js.map": "/static/js/main.7effce2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26efdf5c.css",
+    "static/js/main.7effce2f.js"
+  ]
+}
