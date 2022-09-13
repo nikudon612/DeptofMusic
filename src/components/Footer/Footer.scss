@@ -68,6 +68,11 @@
   }
 }
 
+.pageLinks a:hover {
+  cursor: pointer;
+  color: whitesmoke;
+}
+
 .outer-link-container {
   display: flex;
   flex-direction: column;
