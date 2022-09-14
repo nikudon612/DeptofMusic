@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DeptofMusic/static/css/main.c1c33ab2.css",
+    "main.css": "/DeptofMusic/static/css/main.99b98110.css",
     "main.js": "/DeptofMusic/static/js/main.c39b0c70.js",
     "static/media/absolut.png": "/DeptofMusic/static/media/absolut.466a7692ef66a3e7a383.png",
     "static/media/barbarian.png": "/DeptofMusic/static/media/barbarian.ee829801bd11ed78bacf.png",
@@ -12,11 +12,11 @@
     "static/media/DoM-BrandAssets_Logo1-Wordmark-Black.png": "/DeptofMusic/static/media/DoM-BrandAssets_Logo1-Wordmark-Black.a4bad1c138455a0ff7cb.png",
     "static/media/TrueNorth-Regular.otf": "/DeptofMusic/static/media/TrueNorth-Regular.6367e37fe8d37aa798c8.otf",
     "index.html": "/DeptofMusic/index.html",
-    "main.c1c33ab2.css.map": "/DeptofMusic/static/css/main.c1c33ab2.css.map",
+    "main.99b98110.css.map": "/DeptofMusic/static/css/main.99b98110.css.map",
     "main.c39b0c70.js.map": "/DeptofMusic/static/js/main.c39b0c70.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1c33ab2.css",
+    "static/css/main.99b98110.css",
     "static/js/main.c39b0c70.js"
   ]
 }
