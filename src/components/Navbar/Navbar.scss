@@ -13,7 +13,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #85a199;
+  // background-color: #85a199;
+  background-color: whitesmoke;
   font-family: TrueNorth-Regular;
   z-index: 1;
   // font-family: proxima-nova, sans-serif;
@@ -34,10 +35,10 @@
 }
 
 .headerContainer .eagle {
-  width: 115px;
+  width: 100px;
 }
 .headerContainer .logo {
-  width: 300px;
+  width: 200px;
 }
 
 .links {
@@ -49,14 +50,15 @@
 
 .links a:hover {
   cursor: pointer;
-  color: whitesmoke;
+  color: #bababa;
+  transition: all 0.5s ease;
 }
 
 .links a {
   text-decoration: none;
   color: #121414;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 500;
   // padding: 25px;
 }
 
@@ -73,7 +75,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 150px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     a {
       padding: 5px;
@@ -98,6 +100,40 @@
       height: 35px;
       width: 35px;
       color: #121414;
+    }
+  }
+}
+@media only screen and (max-width: 580px) {
+  .headerContainer {
+    .logo {
+      width: 150px;
+    }
+    .eagle {
+      width: 60px;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar {
+    height: 50px;
+  }
+  .headerContainer {
+    .logo {
+      width: 100px;
+    }
+    .eagle {
+      width: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .headerContainer {
+    .logo {
+      display: none;
+    }
+    .eagle {
+      display: none;
     }
   }
 }

@@ -89,6 +89,14 @@ const Navbar = () => {
                 >
                   Contact
                 </Link>
+                <Link
+                  to="team"
+                  smooth={true}
+                  duration={750}
+                  onClick={() => setOpen(false)}
+                >
+                  Team
+                </Link>
               </div>
             </ListItem>
           </List>
