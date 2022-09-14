@@ -88,4 +88,17 @@
 @media only screen and (max-width: 580px) {
   .outer-link-container {
   }
+  .footer {
+    flex-direction: column;
+    height: 100%;
+    .linkContainer {
+      flex-direction: column;
+      padding-left: 50px;
+    }
+    .trademark {
+      font-size: 8px;
+      display: flex;
+      justify-content: center;
+    }
+  }
 }
