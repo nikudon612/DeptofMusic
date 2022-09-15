@@ -8,9 +8,9 @@ const Contact = () => {
         <span className="title">SAy HELLO</span>
         <div className="contact-info">
           <span className="city">New York</span>
-          <span>1 S 1st Street,</span>
-          <span>Brooklyn, NY, 10010</span>
-          <span>(123)-456-7890</span>
+          {/* <span>1 S 1st Street,</span>
+          <span>Brooklyn, NY, 10010</span> */}
+          <span>(617) 974-2683</span>
           <a href="mailto:michael@deptofmusic.com" className="email">
             info@deptofmusic.com
           </a>

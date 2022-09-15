@@ -12,6 +12,7 @@
   .container {
     width: 500px;
     height: 250px;
+    padding-bottom: 450px;
   }
   .title {
     font-size: 48px;
@@ -43,5 +44,18 @@
   .title {
     padding-left: 25px;
     padding-right: 25px;
+  }
+  .about {
+    .text {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about {
+    .text {
+      font-size: 12px;
+    }
   }
 }

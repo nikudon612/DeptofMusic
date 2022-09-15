@@ -35,10 +35,11 @@
 }
 
 .headerContainer .eagle {
-  width: 100px;
+  padding-left: 200px;
 }
 .headerContainer .logo {
-  width: 200px;
+  width: 100px;
+  padding-right: 200px;
 }
 
 .links {
@@ -62,8 +63,19 @@
   // padding: 25px;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .hamburger {
   display: none;
+}
+.eagle {
+  width: 200px;
+}
+
+.swipe-menu {
+  background-color: #bababab3;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -80,6 +92,9 @@
     a {
       padding: 5px;
     }
+  }
+  .logo {
+    padding-right: 0px;
   }
 }
 
@@ -102,11 +117,17 @@
       color: #121414;
     }
   }
+  .eagle {
+    padding-right: 100px;
+  }
 }
 @media only screen and (max-width: 580px) {
   .headerContainer {
+    padding-left: 10px;
+
     .logo {
-      width: 150px;
+      width: 80px;
+      padding-right: 50px;
     }
     .eagle {
       width: 60px;
@@ -118,6 +139,8 @@
     height: 50px;
   }
   .headerContainer {
+    padding-left: 10px;
+
     .logo {
       width: 100px;
     }
@@ -133,7 +156,7 @@
       display: none;
     }
     .eagle {
-      display: none;
+      display: block;
     }
   }
 }
