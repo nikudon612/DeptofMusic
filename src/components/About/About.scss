@@ -9,11 +9,16 @@
   background-color: whitesmoke;
   color: #121414;
   font-family: TrueNorth-Regular;
+  .highlighted-text {
+    color: #759587;
+    font-weight: 700;
+  }
   .circle {
     padding-top: 100px;
   }
   .circle:hover {
     cursor: pointer;
+    color: #759587;
   }
   .circle-con {
     display: flex;

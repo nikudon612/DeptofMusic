@@ -51,7 +51,7 @@
 
 .links a:hover {
   cursor: pointer;
-  color: #bababa;
+  color: #759587;
   transition: all 0.5s ease;
 }
 
@@ -61,6 +61,21 @@
   font-size: 18px;
   font-weight: 500;
   // padding: 25px;
+}
+
+.logo-container .eagle-color:hover {
+  display: block;
+}
+
+// .eagle:hover {
+//   display: none;
+// }
+.eagle-color {
+  display: none;
+}
+
+.eagle-color:hover {
+  color: #759587;
 }
 
 .logo:hover {

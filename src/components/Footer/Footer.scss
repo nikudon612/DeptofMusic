@@ -24,9 +24,12 @@
 }
 
 .email {
-  color: #bababa;
+  color: whitesmoke;
   text-decoration: none;
   font-size: 14px;
+}
+.email:hover {
+  color: #ebb81e;
 }
 
 .linkContainer {

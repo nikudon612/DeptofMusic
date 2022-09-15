@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.scss";
 import Eagle from "../../Assets/DoM-BrandAssets_LogoMark-V1.png";
 import Logo from "../..//Assets/DoM-BrandAssets_Logo1-Wordmark-Black.png";
+import HoverLogo from "../../Assets/DoM-BrandAssets_Logo1-Wordmark-Blue.png";
 import { Link } from "react-scroll";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -28,12 +29,21 @@ const Navbar = () => {
           />
         </div>
       </div>
-      <img
-        className="eagle"
-        src={Logo}
-        alt="Dept. of Music Eagle Logo"
-        onClick={handleClick}
-      />
+      <div className="logo-container">
+        <img
+          className="eagle"
+          src={Logo}
+          alt="Dept. of Music Eagle Logo"
+          onClick={handleClick}
+        />
+        {/* <img
+          className="eagle-color"
+          src={HoverLogo}
+          alt="Dept. of Music Eagle Logo"
+          onClick={handleClick}
+        /> */}
+      </div>
+
       <div className="links">
         <Link to="work" smooth={true} duration={750}>
           Work
