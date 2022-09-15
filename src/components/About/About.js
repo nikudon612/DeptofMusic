@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.scss";
+import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
 
 const About = () => {
   return (
@@ -41,6 +42,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <ExpandCircleDownIcon className="circle" onClick={() => {}} />
     </div>
   );
 };

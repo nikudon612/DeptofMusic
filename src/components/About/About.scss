@@ -3,16 +3,23 @@
 .about {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #121414;
   color: whitesmoke;
   font-family: TrueNorth-Regular;
+  .circle {
+    padding-top: 100px;
+  }
+  .circle:hover {
+    cursor: pointer;
+  }
 
   .container {
-    width: 500px;
+    width: 66%;
     height: 250px;
-    padding-bottom: 450px;
+    padding-bottom: 250px;
   }
   .title {
     font-size: 48px;
@@ -27,7 +34,7 @@
 }
 .person {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-top: 25px;
   .sub-title {
     font-size: 16px;

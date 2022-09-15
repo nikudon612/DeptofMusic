@@ -22,7 +22,6 @@ const Navbar = () => {
         <div className="logoLinks">
           <img
             className="logo"
-            // src={Logo}
             src={Eagle}
             alt="Dept. of Music Text Logo"
             onClick={handleClick}
@@ -31,7 +30,6 @@ const Navbar = () => {
       </div>
       <img
         className="eagle"
-        // src={Eagle}
         src={Logo}
         alt="Dept. of Music Eagle Logo"
         onClick={handleClick}
