@@ -8,7 +8,7 @@
   font-family: TrueNorth-Regular;
   flex-direction: column;
   .circle {
-    padding-top: 100px;
+    padding-bottom: 125px;
   }
   .circle:hover {
     cursor: pointer;
@@ -16,11 +16,11 @@
   }
 
   .container {
-    // width: 500px;
-    height: 250px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     .title {
       font-size: 48px;
       font-weight: 700;
