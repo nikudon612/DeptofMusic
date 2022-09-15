@@ -1,8 +1,9 @@
 import React from "react";
 import "./Team.scss";
-import Freeman from "../../Assets/deptstaff-1.jpg";
-import Kaplan from "../../Assets/deptstaff-2.jpg";
-// import Oscar from "../../Assets/oscar.jpg";
+import Freeman from "../../Assets/DoM-Oscar-HiRes.png";
+import Kaplan from "../../Assets/DoM-BrandAssets-Walrus-32.png";
+import { Link } from "react-scroll";
+import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
 
 const Team = () => {
   return (
@@ -14,17 +15,11 @@ const Team = () => {
             <div className="team-container">
               <div className="team-info">
                 <span className="employee">Michael Freeman</span>
-                <span className="role">Founder</span>
-                <span className="desc">
-                  Background info - Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam.
-                </span>
+                <span className="role">Co-Founder / Creative Director</span>
               </div>
             </div>
             <div className="image">
-              <img src={Freeman} alt="employee headshot" />
-              {/* <img src={Oscar} alt="employee headshot" /> */}
+              <img src={Freeman} alt="Oscar the Pup logo" />
             </div>
           </div>
           <div className="team-outer-container">
@@ -32,19 +27,17 @@ const Team = () => {
               <div className="team-container">
                 <div className="team-info">
                   <span className="employee">Robert Kaplan</span>
-                  <span className="role">Managing Director</span>
-                  <span className="desc">
-                    Background info - Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam.
-                  </span>
+                  <span className="role">Co-Founder / Managing Director</span>
                 </div>
               </div>
 
               <div className="image">
-                <img src={Kaplan} alt="employee headshot" />
+                <img src={Kaplan} alt="Walrus logo" className="walrus" />
               </div>
             </div>
+            <Link to="navbar" smooth={true} duration={1250}>
+              <ExpandCircleDownIcon className="circle" />
+            </Link>
           </div>
         </div>
       </div>

@@ -6,6 +6,13 @@
   justify-content: center;
   align-items: center;
   font-family: TrueNorth-Regular;
+  flex-direction: column;
+  .circle {
+    padding-top: 100px;
+  }
+  .circle:hover {
+    cursor: pointer;
+  }
 
   .container {
     width: 500px;

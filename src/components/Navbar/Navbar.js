@@ -6,7 +6,6 @@ import { Link } from "react-scroll";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
-import Divider from "@mui/material/Divider";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
@@ -22,19 +21,19 @@ const Navbar = () => {
       <div className="headerContainer">
         <div className="logoLinks">
           <img
-            className="eagle"
-            src={Eagle}
-            alt="Dept. of Music Eagle Logo"
-            onClick={handleClick}
-          />
-          <img
             className="logo"
-            src={Logo}
+            src={Eagle}
             alt="Dept. of Music Text Logo"
             onClick={handleClick}
           />
         </div>
       </div>
+      <img
+        className="eagle"
+        src={Logo}
+        alt="Dept. of Music Eagle Logo"
+        onClick={handleClick}
+      />
       <div className="links">
         <Link to="work" smooth={true} duration={750}>
           Work
@@ -50,57 +49,58 @@ const Navbar = () => {
         <IconButton>
           <MenuIcon onClick={() => setOpen(true)} />
         </IconButton>
-        <SwipeableDrawer
-          anchor="right"
-          open={open}
-          onOpen={() => setOpen(true)}
-          onClose={() => setOpen(false)}
-        >
-          <div>
-            <IconButton>
-              <ChevronRightIcon onClick={() => setOpen(false)} />
-            </IconButton>
-          </div>
-          <Divider />
-          <List>
-            <ListItem>
-              <div className="links-ham">
-                <Link
-                  to="work"
-                  smooth={true}
-                  duration={750}
-                  onClick={() => setOpen(false)}
-                >
-                  Work
-                </Link>
-                <Link
-                  to="about"
-                  smooth={true}
-                  duration={750}
-                  onClick={() => setOpen(false)}
-                >
-                  About
-                </Link>
-                <Link
-                  to="contact"
-                  smooth={true}
-                  duration={750}
-                  onClick={() => setOpen(false)}
-                >
-                  Contact
-                </Link>
-                <Link
-                  to="team"
-                  smooth={true}
-                  duration={750}
-                  onClick={() => setOpen(false)}
-                >
-                  Team
-                </Link>
-              </div>
-            </ListItem>
-          </List>
-        </SwipeableDrawer>
+        <div className="swipe-menu">
+          <SwipeableDrawer
+            anchor="right"
+            open={open}
+            onOpen={() => setOpen(true)}
+            onClose={() => setOpen(false)}
+          >
+            <div>
+              <IconButton>
+                <ChevronRightIcon onClick={() => setOpen(false)} />
+              </IconButton>
+            </div>
+            <List>
+              <ListItem>
+                <div className="links-ham">
+                  <Link
+                    to="work"
+                    smooth={true}
+                    duration={750}
+                    onClick={() => setOpen(false)}
+                  >
+                    Work
+                  </Link>
+                  <Link
+                    to="about"
+                    smooth={true}
+                    duration={750}
+                    onClick={() => setOpen(false)}
+                  >
+                    About
+                  </Link>
+                  <Link
+                    to="contact"
+                    smooth={true}
+                    duration={750}
+                    onClick={() => setOpen(false)}
+                  >
+                    Contact
+                  </Link>
+                  <Link
+                    to="team"
+                    smooth={true}
+                    duration={750}
+                    onClick={() => setOpen(false)}
+                  >
+                    Team
+                  </Link>
+                </div>
+              </ListItem>
+            </List>
+          </SwipeableDrawer>
+        </div>
       </div>
     </div>
   );
