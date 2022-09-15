@@ -42,10 +42,12 @@ const About = () => {
             </span>
           </div>
         </div>
+        <div className="circle-con">
+          <Link to="contact" smooth={true} duration={750}>
+            <ExpandCircleDownIcon className="circle" />
+          </Link>
+        </div>
       </div>
-      <Link to="contact" smooth={true} duration={750}>
-        <ExpandCircleDownIcon className="circle" />
-      </Link>
     </div>
   );
 };
