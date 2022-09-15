@@ -10,7 +10,6 @@
   font-family: TrueNorth-Regular;
 
   .circle {
-    // padding-top: 100px;
     transform: rotate(180deg);
   }
   .circle:hover {
@@ -73,7 +72,7 @@
 .team-outer-container {
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   align-items: center;
 }
 .team-inner-container {
