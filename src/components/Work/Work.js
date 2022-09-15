@@ -64,7 +64,7 @@ const Work = () => {
           <div className="full">
             <img src={Zippo} alt="featured thumbnail" />
             <div className="project-desc">
-              <p>{featuredProject.client}</p>
+              <p className="project-title">{featuredProject.client}</p>
               <p>{featuredProject.info}</p>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Work = () => {
             <div className="half">
               <img src={project.image} alt="thumbnail" />
               <div className="project-desc">
-                <p>{project.client}</p>
+                <p className="project-title">{project.client}</p>
                 <p>{project.info}</p>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Work = () => {
             <div className="third">
               <img src={project.image} alt="thumbnail" />
               <div className="project-desc">
-                <p>{project.client}</p>
+                <p className="project-title">{project.client}</p>
                 <p>{project.info}</p>
               </div>
             </div>
