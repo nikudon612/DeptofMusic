@@ -22,6 +22,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
       <Link to="team" smooth={true} duration={750}>
         <ExpandCircleDownIcon className="circle" />
       </Link>
