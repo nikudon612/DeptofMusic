@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DeptofMusic/static/css/main.deb1b995.css",
-    "main.js": "/DeptofMusic/static/js/main.119d2457.js",
+    "main.css": "/DeptofMusic/static/css/main.a22c19cc.css",
+    "main.js": "/DeptofMusic/static/js/main.6b6406fa.js",
     "static/media/absolut.png": "/DeptofMusic/static/media/absolut.466a7692ef66a3e7a383.png",
     "static/media/barbarian.png": "/DeptofMusic/static/media/barbarian.ee829801bd11ed78bacf.png",
     "static/media/Nationwide.png": "/DeptofMusic/static/media/Nationwide.ff6b9644c6732c5105a2.png",
@@ -9,14 +9,15 @@
     "static/media/DoM-Oscar-HiRes.png": "/DeptofMusic/static/media/DoM-Oscar-HiRes.4eeff381f11a9fac9f4e.png",
     "static/media/DoM-BrandAssets_LogoMark-V1.png": "/DeptofMusic/static/media/DoM-BrandAssets_LogoMark-V1.ead33255aa970c4b0fd3.png",
     "static/media/DoM-BrandAssets-Walrus-32.png": "/DeptofMusic/static/media/DoM-BrandAssets-Walrus-32.d3e84b3fbf54b731a6aa.png",
+    "static/media/DoM-BrandAssets_Logo1-Wordmark-Blue.png": "/DeptofMusic/static/media/DoM-BrandAssets_Logo1-Wordmark-Blue.5ed0383d8f861477fbbc.png",
     "static/media/DoM-BrandAssets_Logo1-Wordmark-Black.png": "/DeptofMusic/static/media/DoM-BrandAssets_Logo1-Wordmark-Black.a4bad1c138455a0ff7cb.png",
     "static/media/TrueNorth-Regular.otf": "/DeptofMusic/static/media/TrueNorth-Regular.6367e37fe8d37aa798c8.otf",
     "index.html": "/DeptofMusic/index.html",
-    "main.deb1b995.css.map": "/DeptofMusic/static/css/main.deb1b995.css.map",
-    "main.119d2457.js.map": "/DeptofMusic/static/js/main.119d2457.js.map"
+    "main.a22c19cc.css.map": "/DeptofMusic/static/css/main.a22c19cc.css.map",
+    "main.6b6406fa.js.map": "/DeptofMusic/static/js/main.6b6406fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.deb1b995.css",
-    "static/js/main.119d2457.js"
+    "static/css/main.a22c19cc.css",
+    "static/js/main.6b6406fa.js"
   ]
 }
