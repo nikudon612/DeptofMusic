@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.scss";
+import { Link } from "react-scroll";
 import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
 
 const About = () => {
@@ -42,7 +43,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <ExpandCircleDownIcon className="circle" onClick={() => {}} />
+      <Link to="contact" smooth={true} duration={750}>
+        <ExpandCircleDownIcon className="circle" />
+      </Link>
     </div>
   );
 };

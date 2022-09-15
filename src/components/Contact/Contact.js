@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contact.scss";
+import { Link } from "react-scroll";
+import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
 
 const Contact = () => {
   return (
@@ -20,6 +22,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Link to="team" smooth={true} duration={750}>
+        <ExpandCircleDownIcon className="circle" />
+      </Link>
     </div>
   );
 };

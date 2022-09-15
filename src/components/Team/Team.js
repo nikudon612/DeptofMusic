@@ -2,6 +2,8 @@ import React from "react";
 import "./Team.scss";
 import Freeman from "../../Assets/DoM-Oscar-HiRes.png";
 import Kaplan from "../../Assets/DoM-BrandAssets-Walrus-32.png";
+import { Link } from "react-scroll";
+import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
 
 const Team = () => {
   return (
@@ -33,6 +35,9 @@ const Team = () => {
                 <img src={Kaplan} alt="Walrus logo" className="walrus" />
               </div>
             </div>
+            <Link to="navbar" smooth={true} duration={1250}>
+              <ExpandCircleDownIcon className="circle" />
+            </Link>
           </div>
         </div>
       </div>

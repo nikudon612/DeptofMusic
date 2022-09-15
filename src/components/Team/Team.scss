@@ -9,6 +9,14 @@
   flex-direction: column;
   font-family: TrueNorth-Regular;
 
+  .circle {
+    // padding-top: 100px;
+    transform: rotate(180deg);
+  }
+  .circle:hover {
+    cursor: pointer;
+  }
+
   .team-container {
     .team-info {
       display: flex;
@@ -37,9 +45,9 @@
   font-size: 48px;
   font-weight: 700;
   text-align: left;
-  padding-top: 275px;
+  padding-top: 75px;
   padding-bottom: 20px;
-  padding-right: 260px;
+  // padding-right: 260px;
 }
 .image {
   // padding-left: 35px;
@@ -55,7 +63,6 @@
     object-fit: contain;
   }
   .walrus {
-    
   }
 }
 .team-outer-outer-container {
@@ -67,6 +74,7 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
+  align-items: center;
 }
 .team-inner-container {
   display: flex;
