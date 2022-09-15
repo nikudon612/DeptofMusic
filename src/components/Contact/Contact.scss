@@ -1,6 +1,6 @@
 .contact {
-  background-color: whitesmoke;
-  color: #121414;
+  background-color: #759587;
+  color: whitesmoke;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -12,11 +12,15 @@
   }
   .circle:hover {
     cursor: pointer;
+    color: #ebb81e;
   }
 
   .container {
-    width: 500px;
+    // width: 500px;
     height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .title {
       font-size: 48px;
       font-weight: 700;

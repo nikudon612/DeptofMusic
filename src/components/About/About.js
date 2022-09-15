@@ -24,9 +24,13 @@ const About = () => {
               But, Michael could never quit music, leading him to pursue a MM
               from NYU and ultimately an internship in the mcgarrybowen music
               department, which was led at that time by Rob Kaplan. Michael
-              learned the craft of integrating music into advertising and
-              excelled to the point where he, up until recently, ran Ogilvy's
-              music department.
+              learned{""}
+              <span className="highlighted-text">
+                {" "}
+                the craft of integrating music into advertising
+              </span>{" "}
+              and excelled to the point where he, up until recently, ran
+              Ogilvy's music department.
               <br />
               <br />
               Rob's journey from mcgarrybowen took him to Sony Music Publishing,
@@ -42,10 +46,12 @@ const About = () => {
             </span>
           </div>
         </div>
+        <div className="circle-con">
+          <Link to="contact" smooth={true} duration={750}>
+            <ExpandCircleDownIcon className="circle" />
+          </Link>
+        </div>
       </div>
-      <Link to="contact" smooth={true} duration={750}>
-        <ExpandCircleDownIcon className="circle" />
-      </Link>
     </div>
   );
 };

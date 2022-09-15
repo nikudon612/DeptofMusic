@@ -6,14 +6,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #121414;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  color: #121414;
   font-family: TrueNorth-Regular;
+  .highlighted-text {
+    color: #759587;
+    font-weight: 700;
+  }
   .circle {
     padding-top: 100px;
   }
   .circle:hover {
     cursor: pointer;
+    color: #759587;
+  }
+  .circle-con {
+    display: flex;
+    justify-content: center;
   }
 
   .container {
@@ -43,7 +52,6 @@
   .human {
     font-size: 16px;
     font-weight: 500;
-    padding-left: 5px;
   }
 }
 
