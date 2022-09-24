@@ -5,8 +5,7 @@ import Absolut from "../../Assets/absolut.png";
 import Zippo from "../../Assets/zipp.png";
 import Barb from "../../Assets/barbarian.png";
 import { Modal } from "@mui/material";
-import FullModal from "../Modals/FullModal";
-
+import { Slide } from "@mui/material";
 const Work = () => {
   //Project Information Objects//
   const featuredProject = {
@@ -96,6 +95,7 @@ const Work = () => {
         ></iframe>
       </Modal>
       {/* Video Modal */}
+
       <div className="grid">
         <div className="one">
           <div
