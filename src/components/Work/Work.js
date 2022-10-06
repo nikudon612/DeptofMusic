@@ -5,7 +5,6 @@ import Absolut from "../../Assets/absolut.png";
 import Zippo from "../../Assets/zipp.png";
 import Barb from "../../Assets/barbarian.png";
 import { Modal } from "@mui/material";
-// import ModalVideo from "react-modal-video";
 import "../Modals/FullModal.scss";
 
 const Work = () => {
@@ -74,16 +73,6 @@ const Work = () => {
 
   return (
     <div className="work">
-      {/* <React.Fragment>
-        <ModalVideo
-          channel="vimeo"
-          autoplay
-          isOpen={open}
-          videoId="k6jqx9kZgPM"
-          onClose={() => setOpen(false)}
-        />
-      </React.Fragment> */}
-
       {/* Video Modal */}
       <Modal
         open={open}
