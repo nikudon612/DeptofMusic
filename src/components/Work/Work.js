@@ -16,6 +16,7 @@ const Work = () => {
     title: "Zippo",
     info: "We did x, y and z",
     link: "https://drive.google.com/file/d/13Pr8XVdciBgaJhI8yAcTH9WZxsrDGgx1/preview",
+    url: "https://media.giphy.com/media/IByataRISOSebERh6Y/giphy.gif",
   };
 
   const halfProjects = [
@@ -118,6 +119,7 @@ const Work = () => {
             }}
           >
             <img src={Zippo} alt="featured thumbnail" />
+            {/* <img src={featuredProject.url} alt="featured gif" className="gif" /> */}
             <div className="project-desc">
               <p className="project-title">{featuredProject.client}</p>
               <p>{featuredProject.info}</p>
