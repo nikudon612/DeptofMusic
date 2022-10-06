@@ -27,9 +27,17 @@
   justify-content: center;
   display: flex;
   flex: 1;
+
   img {
     // max-width: 100%;
     // object-fit: cover;
+  }
+  img:hover {
+    background-image: url("https://media.giphy.com/media/IByataRISOSebERh6Y/giphy.gif");
+  }
+  .gif {
+    // display: none;
+    object-fit: cover;
   }
   .project-desc-full {
     display: flex;
@@ -46,6 +54,11 @@
     height: 75%;
     opacity: 0;
     position: absolute;
+  }
+  .project-desc:hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-image: url("https://media.giphy.com/media/IByataRISOSebERh6Y/giphy.gif");
   }
 }
 img {
@@ -65,10 +78,7 @@ img {
 .half {
   width: 50%;
   height: 50vh;
-  // border: 1px solid black;
   display: flex;
-  // align-items: center;
-  // justify-content: center;
   text-align: center;
   .project-desc {
     width: 50%;
