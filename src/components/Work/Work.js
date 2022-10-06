@@ -5,7 +5,7 @@ import Absolut from "../../Assets/absolut.png";
 import Zippo from "../../Assets/zipp.png";
 import Barb from "../../Assets/barbarian.png";
 import { Modal } from "@mui/material";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import "../Modals/FullModal.scss";
 
 const Work = () => {
