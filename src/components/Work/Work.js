@@ -83,6 +83,8 @@ const Work = () => {
         aria-describedby="modal-modal-description"
       >
         <motion.div
+          open={open}
+          onClose={handleClose}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -90,16 +92,16 @@ const Work = () => {
             type: "spring",
             bounce: 0.3,
             duration: 3,
-            delay: 0.3,
+            delay: 0.5,
             ease: "linear",
           }}
         >
           <iframe
             src={modalData}
             allow="autoplay"
-            title="nationwide"
+            title="portfolio"
             style={{
-              width: "75vw",
+              width: "60vw",
               height: "50vh",
               position: "absolute",
               top: "50%",
