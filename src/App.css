@@ -9,3 +9,14 @@
   }
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #759587;
+  filter: drop-shadow(10px 5px 4px #121414);
+  transform-origin: 0%;
+}
