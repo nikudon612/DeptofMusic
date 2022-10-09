@@ -52,6 +52,22 @@
     padding-right: 25px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .contact {
+    .container {
+      height: 50%;
+      .title {
+        font-size: 30px;
+      }
+    }
+
+    .circle {
+      margin-top: 50px !important;
+    }
+  }
+}
+
 @media only screen and (max-width: 420px) {
   .contact {
     .circle {
