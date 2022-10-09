@@ -29,7 +29,6 @@ const Navbar = () => {
             type: "spring",
             bounce: 0.3,
             duration: 1,
-            delay: 0.2,
             ease: "linear",
           }}
         >
@@ -50,7 +49,6 @@ const Navbar = () => {
           type: "spring",
           bounce: 0.3,
           duration: 1,
-          delay: 0.2,
           ease: "linear",
         }}
       >
