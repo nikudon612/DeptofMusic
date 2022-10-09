@@ -2,7 +2,7 @@
   height: 200px;
   width: 100%;
   bottom: 0;
-  background-color: #121414;
+  background-color: #759587;
   color: whitesmoke;
   position: relative;
   display: flex;
@@ -30,6 +30,7 @@
 }
 .email:hover {
   color: #ebb81e;
+  transition: all 0.5s ease;
 }
 
 .linkContainer {
@@ -49,7 +50,7 @@
   padding-top: 35px;
   text-align: left;
   a {
-    color: #bababa;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
@@ -62,9 +63,8 @@
   flex-direction: column;
   padding-top: 35px;
   text-align: left;
-  color: #bababa;
   a {
-    color: #bababa;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
@@ -73,13 +73,13 @@
 
 .pageLinks a:hover {
   cursor: pointer;
-  color: whitesmoke;
+  color: #ebb81e;
   transition: all 0.5s ease;
 }
 
 .socials a:hover {
   cursor: pointer;
-  color: whitesmoke;
+  color: #ebb81e;
   transition: all 0.5s ease;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .trademark {
-  color: #bababa;
+  color: rgb(231, 231, 231);
   font-size: 14px;
   padding-bottom: 35px;
 }
