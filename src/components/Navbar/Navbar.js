@@ -9,7 +9,6 @@ import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-// import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -36,12 +35,6 @@ const Navbar = () => {
           alt="Dept. of Music Eagle Logo"
           onClick={handleClick}
         />
-        {/* <img
-          className="eagle-color"
-          src={HoverLogo}
-          alt="Dept. of Music Eagle Logo"
-          onClick={handleClick}
-        /> */}
       </div>
 
       <div className="links">
