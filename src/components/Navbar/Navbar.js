@@ -9,6 +9,7 @@ import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -19,23 +20,47 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="headerContainer">
-        <div className="logoLinks">
+        <motion.div
+          className="logoLinks"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{
+            type: "spring",
+            bounce: 0.3,
+            duration: 1,
+            delay: 0.2,
+            ease: "linear",
+          }}
+        >
           <img
             className="logo"
             src={Eagle}
             alt="Dept. of Music Text Logo"
             onClick={handleClick}
           />
-        </div>
+        </motion.div>
       </div>
-      <div className="logo-container">
+      <motion.div
+        className="logo-container"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          type: "spring",
+          bounce: 0.3,
+          duration: 1,
+          delay: 0.2,
+          ease: "linear",
+        }}
+      >
         <img
           className="eagle"
           src={Logo}
           alt="Dept. of Music Eagle Logo"
           onClick={handleClick}
         />
-      </div>
+      </motion.div>
 
       <div className="links">
         <Link to="work" smooth={true} duration={750}>
