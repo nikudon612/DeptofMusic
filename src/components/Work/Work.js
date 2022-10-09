@@ -6,6 +6,7 @@ import Zippo from "../../Assets/zipp.png";
 import Barb from "../../Assets/barbarian.png";
 import { Modal } from "@mui/material";
 import "../Modals/FullModal.scss";
+import { motion } from "framer-motion";
 
 const Work = () => {
   //Project Information Objects//
@@ -74,27 +75,41 @@ const Work = () => {
   return (
     <div className="work">
       {/* Video Modal */}
+
       <Modal
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <iframe
-          src={modalData}
-          width="640"
-          height="480"
-          allow="autoplay"
-          title="nationwide"
-          style={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            outline: 0,
-            border: "none",
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{
+            type: "spring",
+            bounce: 0.3,
+            duration: 3,
+            delay: 0.3,
+            ease: "linear",
           }}
-        ></iframe>
+        >
+          <iframe
+            src={modalData}
+            width="640"
+            height="480"
+            allow="autoplay"
+            title="nationwide"
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              outline: 0,
+              border: "none",
+            }}
+          ></iframe>
+        </motion.div>
       </Modal>
       {/* Video Modal */}
 

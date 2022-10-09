@@ -9,6 +9,7 @@ import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
+// import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
