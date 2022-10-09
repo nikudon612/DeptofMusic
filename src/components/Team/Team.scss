@@ -108,15 +108,16 @@
 
 @media only screen and (max-width: 500px) {
   .team {
+    .circle {
+      // margin-top: 50px !important;
+      display: none;
+    }
     .team-title {
       font-size: 30px;
       padding-top: 0px !important;
     }
   }
-  .circle {
-    // margin-top: 50px !important;
-    display: none;
-  }
+
   .team-inner-container {
     padding-bottom: 0px !important;
   }
