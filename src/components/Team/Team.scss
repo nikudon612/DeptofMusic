@@ -48,7 +48,7 @@
   font-size: 48px;
   font-weight: 700;
   text-align: left;
-  padding-top: 75px;
+  // padding-top: 75px;
   padding-bottom: 20px;
   // padding-right: 260px;
 }
@@ -103,5 +103,23 @@
       padding: 0px;
       padding-top: 25px;
     }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .team {
+    .team-title {
+      font-size: 30px;
+      padding-top: 0px !important;
+    }
+  }
+  .circle {
+    margin-top: 50px !important;
+  }
+  .team-inner-container {
+    padding-bottom: 0px !important;
+  }
+  .team-outer-container {
+    padding-bottom: 25px;
   }
 }
