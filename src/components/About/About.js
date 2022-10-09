@@ -2,14 +2,38 @@ import React from "react";
 import "./About.scss";
 import { Link } from "react-scroll";
 import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <div className="about">
       <div className="container">
         <div className="title">
-          <span>About Us</span>
-          <div className="text">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              bounce: 0.3,
+              duration: 2,
+              delay: 0.1,
+              ease: "linear",
+            }}
+          >
+            About Us
+          </motion.div>
+          <motion.div
+            className="text"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              bounce: 0.3,
+              duration: 2,
+              delay: 0.4,
+              ease: "linear",
+            }}
+          >
             <span>
               Michael Freeman's prodigious talents playing reed instruments
               brought him from his childhood home of New Orleans to Berklee
@@ -44,7 +68,7 @@ const About = () => {
               music needs. Drop us a note and we'd love to tell you more.
               <br />
             </span>
-          </div>
+          </motion.div>
         </div>
         <div className="circle-con">
           <Link to="contact" smooth={true} duration={750}>

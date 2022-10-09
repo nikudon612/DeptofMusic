@@ -2,24 +2,60 @@ import React from "react";
 import "./Contact.scss";
 import { Link } from "react-scroll";
 import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
     <div className="contact">
       <div className="container">
-        <span className="title">SAy HELLO</span>
+        <motion.div
+          className="title"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{
+            type: "spring",
+            bounce: 0.3,
+            duration: 2,
+            delay: 0.1,
+            ease: "linear",
+          }}
+        >
+          SAy HELLO
+        </motion.div>
         <div className="contact-info">
-          <span className="city">New York</span>
-          {/* <span>1 S 1st Street,</span>
-          <span>Brooklyn, NY, 10010</span> */}
-          <span>(617) 974-2683</span>
-          <a href="mailto:michael@deptofmusic.com" className="email">
-            info@deptofmusic.com
-          </a>
-          <div className="person">
+          <motion.div
+            className="contact-first-box"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              bounce: 0.3,
+              duration: 2,
+              delay: 0.4,
+              ease: "linear",
+            }}
+          >
+            <span className="city">New York</span>
+            <span>(617) 974-2683</span>
+            <a href="mailto:michael@deptofmusic.com" className="email">
+              info@deptofmusic.com
+            </a>
+          </motion.div>
+          <motion.div
+            className="person"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              bounce: 0.3,
+              duration: 2,
+              delay: 0.8,
+              ease: "linear",
+            }}
+          >
             <span className="sub-title">Contact:</span>
             <span className="human">Michael Freeman</span>
-          </div>
+          </motion.div>
         </div>
       </div>
 
