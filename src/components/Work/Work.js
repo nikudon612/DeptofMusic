@@ -96,11 +96,11 @@ const Work = () => {
         >
           <iframe
             src={modalData}
-            width="640"
-            height="480"
             allow="autoplay"
             title="nationwide"
             style={{
+              width: "75vw",
+              height: "50vh",
               position: "absolute",
               top: "50%",
               left: "50%",
