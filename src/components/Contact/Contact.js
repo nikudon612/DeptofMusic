@@ -12,6 +12,7 @@ const Contact = () => {
           className="title"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "spring",
             bounce: 0.3,
@@ -27,6 +28,7 @@ const Contact = () => {
             className="contact-first-box"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{
               type: "spring",
               bounce: 0.3,
@@ -45,6 +47,7 @@ const Contact = () => {
             className="person"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{
               type: "spring",
               bounce: 0.3,

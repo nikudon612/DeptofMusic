@@ -14,6 +14,7 @@ const Team = () => {
           className="team-title"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "spring",
             bounce: 0.3,
@@ -29,6 +30,7 @@ const Team = () => {
             className="team-inner-container"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{
               type: "spring",
               bounce: 0.3,
@@ -52,6 +54,7 @@ const Team = () => {
               className="team-inner-container"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{
                 type: "spring",
                 bounce: 0.3,

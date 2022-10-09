@@ -12,6 +12,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{
               type: "spring",
               bounce: 0.3,
@@ -26,6 +27,7 @@ const About = () => {
             className="text"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{
               type: "spring",
               bounce: 0.3,
