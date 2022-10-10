@@ -40,6 +40,11 @@
 .headerContainer .logo {
   width: 150px;
   // margin-right: 200px;
+  cursor: pointer;
+}
+
+.headerContainer .Hoverlogo {
+  width: 150px;
 }
 
 .links {
@@ -78,7 +83,12 @@
   color: #759587;
 }
 
-.logo:hover {
+.Hoverlogo {
+  display: none;
+}
+
+.Hoverlogo :hover {
+  display: block;
   cursor: pointer;
 }
 

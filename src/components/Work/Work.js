@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import "./Work.scss";
 import Nationwide from "../../Assets/Nationwide.png";
 import Absolut from "../../Assets/absolut.png";
-import Zippo from "../../Assets/zipp.png";
-import Barb from "../../Assets/barbarian.png";
+// import Zippo from "../../Assets/zipp.png";
+// import Barb from "../../Assets/barbarian.png";
+import Sheep from "../../Assets/Sheep.png";
+import Bud from "../../Assets/bud.png";
+import cats from "../../Assets/cats.png";
+import tmobile from "../../Assets/tmobile.png";
 import { Modal } from "@mui/material";
 import "../Modals/FullModal.scss";
 import { motion } from "framer-motion";
@@ -29,40 +33,64 @@ const Work = () => {
       link: "https://drive.google.com/file/d/1yelACSoUs3uocnp-0LzZrWDB7SCNc59L/preview",
     },
     {
-      id: 1,
-      client: "Samsung",
-      title: "Samsung Galaxy Z Fold3 5G",
+      id: 2,
+      client: "Volkswagon",
+      title: "Volkswagon Sheep",
       info: "We did x, y and z",
-      image: Barb,
-      link: "https://drive.google.com/file/d/1Kt_zlgHEPYMfDzKzmuhXQR2zzIbQnGKL/preview",
+      image: Sheep,
+      link: "https://drive.google.com/file/d/1QYl129nCVxVAGeL3aP6Oa4HR7LAqAIfh/preview",
     },
   ];
 
   const threeProjects = [
+    // {
+    //   id: 1,
+    //   client: "Samsung",
+    //   title: "Samsung Galaxy Z Fold3 5G",
+    //   info: "We did x, y and z",
+    //   image: Barb,
+    //   link: "https://drive.google.com/file/d/1Kt_zlgHEPYMfDzKzmuhXQR2zzIbQnGKL/preview",
+    // },
     {
       id: 1,
       client: "Samsung",
       title: "Samsung Galaxy Z Fold3 5G",
       info: "We did x, y and z",
-      image: Barb,
-      link: "https://drive.google.com/file/d/1Kt_zlgHEPYMfDzKzmuhXQR2zzIbQnGKL/preview",
+      image: cats,
+      link: "https://drive.google.com/file/d/1yYxAJXwWcYmP1_wuD6IeZmU08x7l3YaH/preview",
     },
+    // {
+    //   id: 2,
+    //   client: "Nationwide",
+    //   title: "Nationwide theme by H.E.R.",
+    //   info: "Unique rendition of the Nationwide theme by H.E.R.",
+    //   image: Nationwide,
+    //   link: "https://drive.google.com/file/d/1yelACSoUs3uocnp-0LzZrWDB7SCNc59L/preview",
+    // },
     {
       id: 2,
-      client: "Nationwide",
-      title: "Nationwide theme by H.E.R.",
-      info: "Unique rendition of the Nationwide theme by H.E.R.",
-      image: Nationwide,
-      link: "https://drive.google.com/file/d/1yelACSoUs3uocnp-0LzZrWDB7SCNc59L/preview",
+      client: "Budweiser",
+      title: "Budweiser",
+      info: "We did x, y and z",
+      image: Bud,
+      link: "https://drive.google.com/file/d/1UnjuEYGv7h5IX_YvVVbVapWFgWI7i2Gw/preview",
     },
     {
       id: 3,
-      client: "Zippo",
-      title: "Zippo",
-      info: "We did x, y and z",
-      image: Zippo,
-      link: "https://drive.google.com/file/d/13Pr8XVdciBgaJhI8yAcTH9WZxsrDGgx1/preview",
+      client: "T-Mobile",
+      title: "T-Mobile",
+      info: "I feel pretty",
+      image: tmobile,
+      link: "https://drive.google.com/file/d/1ogHIsY4BcVwreUjqkNxbO0Nbrdu391YO/preview",
     },
+    // {
+    //   id: 3,
+    //   client: "Zippo",
+    //   title: "Zippo",
+    //   info: "We did x, y and z",
+    //   image: Zippo,
+    //   link: "https://drive.google.com/file/d/13Pr8XVdciBgaJhI8yAcTH9WZxsrDGgx1/preview",
+    // },
   ];
 
   //Project Information Objects//

@@ -39,6 +39,12 @@ const Navbar = () => {
             onClick={handleClick}
           />
         </motion.div>
+        {/* <img
+          className="Hoverlogo"
+          src={HoverLogo}
+          alt="Dept. of Music Text Logo"
+          onClick={handleClick}
+        /> */}
       </div>
       {/* <motion.div
         className="logo-container"
