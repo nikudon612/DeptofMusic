@@ -1,7 +1,7 @@
 import React from "react";
 import "./Team.scss";
-import Freeman from "../../Assets/DoM-Oscar-HiRes.png";
-import Kaplan from "../../Assets/DoM-BrandAssets-Walrus-32.png";
+import Freeman from "../../Assets/DoM-Oscar.png";
+import Kaplan from "../../Assets/DoM-Walrus.png";
 import { Link } from "react-scroll";
 import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
 import { motion } from "framer-motion";
