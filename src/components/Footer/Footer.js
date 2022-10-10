@@ -16,11 +16,11 @@ const Footer = () => {
       </div>
       <div className="outer-link-container">
         <div className="linkContainer">
-          <div className="socials">
+          {/* <div className="socials">
             <a href="https://www.instagram.com/freemanagogo/">Instagram</a>
             <a href="twitter.com">Twitter</a>
             <a href="facebook.com">Facebook</a>
-          </div>
+          </div> */}
           <div className="pageLinks">
             <Link to="work" smooth={true} duration={750}>
               Work
