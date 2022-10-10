@@ -21,7 +21,7 @@
 }
 
 .full {
-  width: 100%;
+  width: 100vw;
   // height: 50vh;
   height: 75vh;
   justify-content: center;
@@ -63,6 +63,11 @@
     // background-image: url("https://media.giphy.com/media/IByataRISOSebERh6Y/giphy.gif");
   }
 }
+
+#featured-image {
+  width: 100vw;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
