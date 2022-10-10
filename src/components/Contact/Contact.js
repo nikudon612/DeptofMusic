@@ -37,11 +37,11 @@ const Contact = () => {
               ease: "linear",
             }}
           >
-            <span className="city">New York</span>
-            <span>(617) 974-2683</span>
+            {/* <span className="city">New York</span> */}
             <a href="mailto:michael@deptofmusic.com" className="email">
               info@deptofmusic.com
             </a>
+            <span>(617) 974-2683</span>
           </motion.div>
           <motion.div
             className="person"

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-import Eagle from "../../Assets/DoM-Logo-Opt.png";
-import Logo from "../..//Assets/DoM-Text-Logo-Opt.png";
+import Eagle from "../../Assets/DoM-Opt1.png";
+import Logo from "../..//Assets/DoM-Opt2.png";
 import { Link } from "react-scroll";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
