@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-import Eagle from "../../Assets/DoM-Opt1.png";
-import Logo from "../..//Assets/DoM-Opt2.png";
+// import Eagle from "../../Assets/DoM-Opt1.png";
+import Logo from "../../Assets/DoM-Nav-Opt.png";
 import { Link } from "react-scroll";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -34,13 +34,13 @@ const Navbar = () => {
         >
           <img
             className="logo"
-            src={Eagle}
+            src={Logo}
             alt="Dept. of Music Text Logo"
             onClick={handleClick}
           />
         </motion.div>
       </div>
-      <motion.div
+      {/* <motion.div
         className="logo-container"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -58,7 +58,7 @@ const Navbar = () => {
           alt="Dept. of Music Eagle Logo"
           onClick={handleClick}
         />
-      </motion.div>
+      </motion.div> */}
 
       <div className="links">
         <Link to="work" smooth={true} duration={750}>
