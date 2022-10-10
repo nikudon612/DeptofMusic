@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.scss";
 // import Eagle from "../../Assets/DoM-Opt1.png";
 import Logo from "../../Assets/DoM-Nav-Opt.png";
+import HoverLogo from "../../Assets/DoM-Nav-Hover-Opt.png";
 import { Link } from "react-scroll";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -39,6 +40,12 @@ const Navbar = () => {
             onClick={handleClick}
           />
         </motion.div>
+        {/* <img
+          className="Hoverlogo"
+          src={HoverLogo}
+          alt="Dept. of Music Text Logo"
+          onClick={handleClick}
+        /> */}
       </div>
       {/* <motion.div
         className="logo-container"
