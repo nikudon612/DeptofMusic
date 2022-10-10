@@ -12,11 +12,11 @@ const Work = () => {
   //Project Information Objects//
   const featuredProject = {
     id: 1,
-    client: "Zippo",
-    title: "Zippo",
+    client: "Absolut",
+    title: "Absolut",
     info: "We did x, y and z",
-    link: "https://drive.google.com/file/d/13Pr8XVdciBgaJhI8yAcTH9WZxsrDGgx1/preview",
-    url: "https://media.giphy.com/media/IByataRISOSebERh6Y/giphy.gif",
+    image: Absolut,
+    link: "https://drive.google.com/file/d/17-LWxSpoCa-gONISwRKlgfFRK3mC2Ur_/preview",
   };
 
   const halfProjects = [
@@ -29,12 +29,12 @@ const Work = () => {
       link: "https://drive.google.com/file/d/1yelACSoUs3uocnp-0LzZrWDB7SCNc59L/preview",
     },
     {
-      id: 2,
-      client: "Absolut",
-      title: "Absolut",
+      id: 1,
+      client: "Samsung",
+      title: "Samsung Galaxy Z Fold3 5G",
       info: "We did x, y and z",
-      image: Absolut,
-      link: "https://drive.google.com/file/d/17-LWxSpoCa-gONISwRKlgfFRK3mC2Ur_/preview",
+      image: Barb,
+      link: "https://drive.google.com/file/d/1Kt_zlgHEPYMfDzKzmuhXQR2zzIbQnGKL/preview",
     },
   ];
 
@@ -57,13 +57,14 @@ const Work = () => {
     },
     {
       id: 3,
-      client: "Absolut",
-      title: "Absolut",
+      client: "Zippo",
+      title: "Zippo",
       info: "We did x, y and z",
-      image: Absolut,
-      link: "https://drive.google.com/file/d/17-LWxSpoCa-gONISwRKlgfFRK3mC2Ur_/preview",
+      image: Zippo,
+      link: "https://drive.google.com/file/d/13Pr8XVdciBgaJhI8yAcTH9WZxsrDGgx1/preview",
     },
   ];
+
   //Project Information Objects//
 
   //Modal State//
@@ -124,11 +125,11 @@ const Work = () => {
               setOpen(true);
             }}
           >
-            <img src={Zippo} alt="featured thumbnail" />
+            <img src={featuredProject.image} alt="featured thumbnail" />
             {/* <img src={featuredProject.url} alt="featured gif" className="gif" /> */}
             <div className="project-desc">
               <p className="project-title">{featuredProject.client}</p>
-              <p>{featuredProject.info}</p>
+              {/* <p>{featuredProject.info}</p> */}
             </div>
           </div>
         </div>
@@ -145,7 +146,7 @@ const Work = () => {
               <img src={project.image} alt="thumbnail" />
               <div className="project-desc">
                 <p className="project-title">{project.client}</p>
-                <p>{project.info}</p>
+                {/* <p>{project.info}</p> */}
               </div>
             </div>
           ))}
@@ -163,7 +164,7 @@ const Work = () => {
               <img src={project.image} alt="thumbnail" />
               <div className="project-desc">
                 <p className="project-title">{project.client}</p>
-                <p>{project.info}</p>
+                {/* <p>{project.info}</p> */}
               </div>
             </div>
           ))}
