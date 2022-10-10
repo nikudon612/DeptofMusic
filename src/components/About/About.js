@@ -37,11 +37,13 @@ const About = () => {
             }}
           >
             <span>
-              Hello! We’re your friendly neighborhood music department. Whether
-              you need a search, some help with licensing, original music
-              production, talent negotiation, sonic branding or anything else
-              from the world of sound, we’re here to help as an out-sourced,
-              in-house part of your team.
+              Hello! We’re your friendly neighborhood music department.
+              <br />
+              <br />
+              Whether you need a search, some help with licensing, original
+              music production, talent negotiation, sonic branding or anything
+              else from the world of sound, we’re here to help as an
+              out-sourced, in-house part of your team.
               <br />
               <br />
               <span className="highlighted-text">

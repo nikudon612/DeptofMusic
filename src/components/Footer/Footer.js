@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="location-info">
-        <span className="city">New York</span>
+        <span className="city">Contact</span>
         {/* <span>1 S 1st Street,</span>
         <span>Brooklyn, NY, 10010</span> */}
         <span>(617) 974-2683</span>
