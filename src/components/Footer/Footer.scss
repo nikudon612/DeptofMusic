@@ -97,6 +97,15 @@
   padding-bottom: 35px;
 }
 
+.logo-info-con {
+  display: flex;
+}
+
+.eagle-logo {
+  width: 150px;
+  height: 150px;
+}
+
 @media only screen and (max-width: 580px) {
   .outer-link-container {
   }

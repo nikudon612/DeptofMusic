@@ -1,18 +1,20 @@
 import React from "react";
 import "./Footer.scss";
 import { Link } from "react-scroll";
+import Eagle from "../../Assets/DoM-Opt1.png";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="location-info">
-        <span className="city">Contact</span>
-        {/* <span>1 S 1st Street,</span>
-        <span>Brooklyn, NY, 10010</span> */}
-        <span>(617) 974-2683</span>
-        <a href="mailto:michael@deptofmusic.com" className="email">
-          info@deptofmusic.com
-        </a>
+      <div className="logo-info-con">
+        <img src={Eagle} alt="Camp Eagle logo" className="eagle-logo" />
+        <div className="location-info">
+          <span className="city">Contact</span>
+          <span>(617) 974-2683</span>
+          <a href="mailto:michael@deptofmusic.com" className="email">
+            info@deptofmusic.com
+          </a>
+        </div>
       </div>
       <div className="outer-link-container">
         <div className="linkContainer">

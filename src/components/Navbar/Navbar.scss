@@ -38,8 +38,8 @@
   margin-left: 200px;
 }
 .headerContainer .logo {
-  width: 100px;
-  margin-right: 200px;
+  width: 150px;
+  // margin-right: 200px;
 }
 
 .links {
@@ -82,15 +82,13 @@
   cursor: pointer;
 }
 
-.eagle {
-  cursor: pointer;
-}
-
 .hamburger {
   display: none;
 }
 .eagle {
   width: 200px;
+  height: 100px;
+  cursor: pointer;
 }
 
 .swipe-menu {
@@ -100,8 +98,6 @@
 .mobile-menu {
   background-color: #759587;
 }
-
-
 
 @media only screen and (max-width: 1024px) {
   .navbar {
