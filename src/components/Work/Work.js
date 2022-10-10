@@ -125,7 +125,11 @@ const Work = () => {
               setOpen(true);
             }}
           >
-            <img src={featuredProject.image} alt="featured thumbnail" />
+            <img
+              src={featuredProject.image}
+              alt="featured thumbnail"
+              id="featured-image"
+            />
             {/* <img src={featuredProject.url} alt="featured gif" className="gif" /> */}
             <div className="project-desc">
               <p className="project-title">{featuredProject.client}</p>
