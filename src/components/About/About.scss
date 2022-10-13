@@ -138,6 +138,9 @@
   .circle {
     margin-top: 50px !important;
   }
+  #iframe {
+    height: calc(100% - 75%);
+  }
 }
 
 @media only screen and (max-width: 420px) {
@@ -149,5 +152,8 @@
     .text {
       font-size: 12px;
     }
+  }
+  #iframe {
+    height: calc(100% - 80%);
   }
 }
