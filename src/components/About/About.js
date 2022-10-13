@@ -51,12 +51,51 @@ const About = () => {
               </span>
             </span>
           </motion.div>
+          <div className="contact-container">
+            <motion.div
+              className="contact-info"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                type: "spring",
+                bounce: 0.3,
+                duration: 2,
+                delay: 0.6,
+                ease: "linear",
+              }}
+            >
+              <span className="name">Michael Freeman</span>
+              <a href="mailto:michael@deptofmusic.com" className="email">
+                michael@deptofmusIc.com
+              </a>
+            </motion.div>
+            <motion.div
+              className="contact-info"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                type: "spring",
+                bounce: 0.3,
+                duration: 2,
+                delay: 0.7,
+                ease: "linear",
+              }}
+            >
+              <span className="name">Robert Kaplan</span>
+              <a href="mailto:rob@deptofmusic.com" className="email">
+                rob@deptofmusIc.com
+              </a>
+            </motion.div>
+          </div>
         </div>
-        <div className="circle-con">
+
+        {/* <div className="circle-con">
           <Link to="contact" smooth={true} duration={750}>
             <ExpandCircleDownIcon className="circle" />
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

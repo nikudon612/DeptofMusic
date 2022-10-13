@@ -73,9 +73,9 @@ const Navbar = () => {
         <Link to="about" smooth={true} duration={750}>
           About
         </Link>
-        <Link to="contact" smooth={true} duration={750}>
+        {/* <Link to="contact" smooth={true} duration={750}>
           Contact
-        </Link>
+        </Link> */}
       </div>
       <div className="hamburger">
         <IconButton>

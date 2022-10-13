@@ -24,12 +24,14 @@
 }
 
 .email {
-  color: whitesmoke;
+  color: #121414;
   text-decoration: none;
   font-size: 14px;
+  font-weight: 500;
+  font-family: proxima-nova, sans-serif;
 }
 .email:hover {
-  color: #ebb81e;
+  color: #759587;
   transition: all 0.5s ease;
 }
 
