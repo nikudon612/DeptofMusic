@@ -133,9 +133,10 @@ const Work = () => {
             src={modalData}
             allow="autoplay"
             title="portfolio"
+            id="iframe"
             style={{
-              width: "60vw",
-              height: "50vh",
+              // width: "80vw",
+              // height: "50vh",
               position: "absolute",
               top: "50%",
               left: "50%",
