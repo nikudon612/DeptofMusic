@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-// import Eagle from "../../Assets/DoM-Opt1.png";
+import Eagle from "../../Assets/DoM-Opt1.png";
 import Logo from "../../Assets/DoM-Nav-Opt.png";
+import Logo2 from "../../Assets/DoM-Opt2.png";
 import { Link } from "react-scroll";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -34,7 +35,7 @@ const Navbar = () => {
         >
           <img
             className="logo"
-            src={Logo}
+            src={Eagle}
             alt="Dept. of Music Text Logo"
             onClick={handleClick}
           />
@@ -46,7 +47,7 @@ const Navbar = () => {
           onClick={handleClick}
         /> */}
       </div>
-      {/* <motion.div
+      <motion.div
         className="logo-container"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -60,11 +61,11 @@ const Navbar = () => {
       >
         <img
           className="eagle"
-          src={Logo}
+          src={Logo2}
           alt="Dept. of Music Eagle Logo"
           onClick={handleClick}
         />
-      </motion.div> */}
+      </motion.div>
 
       <div className="links">
         <Link to="work" smooth={true} duration={750}>
@@ -73,9 +74,9 @@ const Navbar = () => {
         <Link to="about" smooth={true} duration={750}>
           About
         </Link>
-        {/* <Link to="contact" smooth={true} duration={750}>
+        <Link to="contact" smooth={true} duration={750}>
           Contact
-        </Link> */}
+        </Link>
       </div>
       <div className="hamburger">
         <IconButton>

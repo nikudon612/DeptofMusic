@@ -51,7 +51,7 @@ const About = () => {
               </span>
             </span>
           </motion.div>
-          <div className="contact-container">
+          {/* <div className="contact-container">
             <motion.div
               className="contact-info"
               initial={{ opacity: 0, y: 50 }}
@@ -88,7 +88,7 @@ const About = () => {
                 robert@deptofmusIc.com
               </a>
             </motion.div>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="circle-con">

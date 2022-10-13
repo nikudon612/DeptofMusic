@@ -31,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 80%;
     height: 250px;
     // padding-bottom: 250px;
     cursor: pointer;
@@ -39,10 +39,12 @@
   .title {
     font-size: 48px;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
+    width: 80%;
   }
+
   .text {
-    font-size: 16px;
+    font-size: 18px;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -73,7 +75,7 @@
     flex-direction: column;
     gap: 10px;
     .name {
-      font-size: 20px;
+      font-size: 28px;
       font-family: proxima-nova, sans-serif;
     }
     // .email {
@@ -96,6 +98,9 @@
 @media only screen and (max-width: 900px) {
   .text {
     font-size: 14px;
+  }
+  #iframe {
+    height: calc(100% - 40%);
   }
 }
 
