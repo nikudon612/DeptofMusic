@@ -38,7 +38,7 @@
   margin-left: 200px;
 }
 .headerContainer .logo {
-  width: 150px;
+  width: 100px;
   // margin-right: 200px;
   cursor: pointer;
 }
@@ -96,8 +96,9 @@
   display: none;
 }
 .eagle {
-  width: 200px;
+  width: 275px;
   height: 100px;
+  padding-left: 150px;
   cursor: pointer;
 }
 
@@ -155,6 +156,21 @@
     margin-right: 0px !important;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .logo {
+    display: none;
+  }
+  .eagle {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 200px;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
 @media only screen and (max-width: 580px) {
   .navbar {
     display: flex;
@@ -171,7 +187,6 @@
     }
   }
 }
-
 
 @media only screen and (max-width: 320px) {
   .navbar {

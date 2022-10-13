@@ -23,9 +23,9 @@ const Contact = () => {
         >
           SAy HELLO
         </motion.div>
-        <div className="contact-info">
+        <div className="contact-container">
           <motion.div
-            className="contact-first-box"
+            className="contact-info"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true }}
@@ -33,18 +33,17 @@ const Contact = () => {
               type: "spring",
               bounce: 0.3,
               duration: 2,
-              delay: 0.4,
+              delay: 0.6,
               ease: "linear",
             }}
           >
-            {/* <span className="city">New York</span> */}
+            <span className="name">Michael Freeman</span>
             <a href="mailto:michael@deptofmusic.com" className="email">
-              info@deptofmusic.com
+              michael@deptofmusIc.com
             </a>
-            <span>(617) 974-2683</span>
           </motion.div>
           <motion.div
-            className="person"
+            className="contact-info"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true }}
@@ -52,20 +51,21 @@ const Contact = () => {
               type: "spring",
               bounce: 0.3,
               duration: 2,
-              delay: 0.8,
+              delay: 0.7,
               ease: "linear",
             }}
           >
-            <span className="sub-title">Contact:</span>
-            <span className="human">Michael Freeman</span>
-            
+            <span className="name">Robert Kaplan</span>
+            <a href="mailto:rob@deptofmusic.com" className="email">
+              robert@deptofmusIc.com
+            </a>
           </motion.div>
         </div>
       </div>
 
-      <Link to="team" smooth={true} duration={750}>
+      {/* <Link to="team" smooth={true} duration={750}>
         <ExpandCircleDownIcon className="circle" />
-      </Link>
+      </Link> */}
     </div>
   );
 };
