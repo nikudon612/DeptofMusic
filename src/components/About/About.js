@@ -85,7 +85,7 @@ const About = () => {
             >
               <span className="name">Robert Kaplan</span>
               <a href="mailto:rob@deptofmusic.com" className="email">
-                rob@deptofmusIc.com
+                robert@deptofmusIc.com
               </a>
             </motion.div>
           </div>
