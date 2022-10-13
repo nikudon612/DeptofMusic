@@ -217,7 +217,21 @@ const Work = () => {
             >
               <img src={project.image} alt="thumbnail" />
               <div className="project-desc">
-                <p className="project-title">{project.client}</p>
+                <motion.p
+                  className="project-title"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    type: "spring",
+                    bounce: 0.3,
+                    duration: 3,
+                    delay: 0.5,
+                    ease: "linear",
+                  }}
+                >
+                  {project.client}
+                </motion.p>
                 {/* <p>{project.info}</p> */}
               </div>
             </div>

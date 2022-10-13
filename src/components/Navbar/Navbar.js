@@ -112,7 +112,7 @@ const Navbar = () => {
                   >
                     About
                   </Link>
-                  <Link
+                  {/* <Link
                     to="contact"
                     smooth={true}
                     duration={750}
@@ -127,7 +127,7 @@ const Navbar = () => {
                     onClick={() => setOpen(false)}
                   >
                     Team
-                  </Link>
+                  </Link> */}
                 </div>
               </ListItem>
             </List>
