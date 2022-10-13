@@ -41,7 +41,7 @@
     font-size: 48px;
     font-weight: 700;
     text-align: center;
-    width: 80%;
+    width: 50%;
   }
 
   .text {
@@ -95,7 +95,13 @@
   width: calc(100vw - 50px);
   height: calc((100vh - 50%));
 }
-
+@media only screen and (max-width: 1300px) {
+  .about {
+    .title {
+      width: 80%;
+    }
+  }
+}
 @media only screen and (max-width: 900px) {
   .text {
     font-size: 14px;
