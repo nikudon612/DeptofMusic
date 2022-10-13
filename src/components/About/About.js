@@ -46,11 +46,9 @@ const About = () => {
               out-sourced, in-house part of your team.
               <br />
               <br />
-              <span className="highlighted-text">
-                Drop us a line. We’d love to hear from you.
-              </span>
             </span>
           </motion.div>
+
           {/* <div className="contact-container">
             <motion.div
               className="contact-info"
@@ -90,6 +88,21 @@ const About = () => {
             </motion.div>
           </div> */}
         </div>
+        <motion.div
+          className="highlighted-text"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            type: "spring",
+            bounce: 0.3,
+            duration: 2,
+            delay: 1,
+            ease: "linear",
+          }}
+        >
+          Drop us a line. We’d love to hear from you.
+        </motion.div>
 
         {/* <div className="circle-con">
           <Link to="contact" smooth={true} duration={750}>
