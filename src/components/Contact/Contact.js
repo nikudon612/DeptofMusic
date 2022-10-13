@@ -58,6 +58,7 @@ const Contact = () => {
           >
             <span className="sub-title">Contact:</span>
             <span className="human">Michael Freeman</span>
+            
           </motion.div>
         </div>
       </div>

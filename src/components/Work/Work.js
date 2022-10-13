@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import "./Work.scss";
 import Nationwide from "../../Assets/Nationwide.png";
 import Absolut from "../../Assets/absolut.png";
-// import Zippo from "../../Assets/zipp.png";
+import Zippo from "../../Assets/zipp.png";
 // import Barb from "../../Assets/barbarian.png";
 import Sheep from "../../Assets/Sheep.png";
 import Bud from "../../Assets/bud.png";
 import cats from "../../Assets/cats.png";
 import tmobile from "../../Assets/tmobile.png";
+import Coke from "../../Assets/CokeZero.png";
 import { Modal } from "@mui/material";
 import "../Modals/FullModal.scss";
 import { motion } from "framer-motion";
@@ -16,8 +17,8 @@ const Work = () => {
   //Project Information Objects//
   const featuredProject = {
     id: 1,
-    client: "Absolut",
-    title: "Absolut",
+    client: "AbsoLut",
+    title: "AbsoLut",
     info: "We did x, y and z",
     image: Absolut,
     link: "https://drive.google.com/file/d/17-LWxSpoCa-gONISwRKlgfFRK3mC2Ur_/preview",
@@ -26,7 +27,7 @@ const Work = () => {
   const halfProjects = [
     {
       id: 1,
-      client: "Nationwide",
+      client: "NatIonwIde",
       title: "Nationwide theme by H.E.R.",
       info: "Unique rendition of the Nationwide theme by H.E.R.",
       image: Nationwide,
@@ -34,8 +35,8 @@ const Work = () => {
     },
     {
       id: 2,
-      client: "Volkswagon",
-      title: "Volkswagon Sheep",
+      client: "VoLkswagon",
+      title: "VoLkswagon Sheep",
       info: "We did x, y and z",
       image: Sheep,
       link: "https://drive.google.com/file/d/1QYl129nCVxVAGeL3aP6Oa4HR7LAqAIfh/preview",
@@ -59,38 +60,41 @@ const Work = () => {
       image: cats,
       link: "https://drive.google.com/file/d/1yYxAJXwWcYmP1_wuD6IeZmU08x7l3YaH/preview",
     },
-    // {
-    //   id: 2,
-    //   client: "Nationwide",
-    //   title: "Nationwide theme by H.E.R.",
-    //   info: "Unique rendition of the Nationwide theme by H.E.R.",
-    //   image: Nationwide,
-    //   link: "https://drive.google.com/file/d/1yelACSoUs3uocnp-0LzZrWDB7SCNc59L/preview",
-    // },
     {
       id: 2,
-      client: "Budweiser",
-      title: "Budweiser",
+      client: "BudweIser",
+      title: "BudweIser",
       info: "We did x, y and z",
       image: Bud,
       link: "https://drive.google.com/file/d/1UnjuEYGv7h5IX_YvVVbVapWFgWI7i2Gw/preview",
     },
     {
       id: 3,
-      client: "T-Mobile",
-      title: "T-Mobile",
+      client: "T-MobILe",
+      title: "T-MobILe",
       info: "I feel pretty",
       image: tmobile,
       link: "https://drive.google.com/file/d/1ogHIsY4BcVwreUjqkNxbO0Nbrdu391YO/preview",
     },
-    // {
-    //   id: 3,
-    //   client: "Zippo",
-    //   title: "Zippo",
-    //   info: "We did x, y and z",
-    //   image: Zippo,
-    //   link: "https://drive.google.com/file/d/13Pr8XVdciBgaJhI8yAcTH9WZxsrDGgx1/preview",
-    // },
+  ];
+
+  const secondHalfProjects = [
+    {
+      id: 1,
+      client: "ZIppo",
+      title: "ZIppo",
+      info: "We did x, y and z",
+      image: Zippo,
+      link: "https://drive.google.com/file/d/13Pr8XVdciBgaJhI8yAcTH9WZxsrDGgx1/preview",
+    },
+    {
+      id: 2,
+      client: "Coke Zero",
+      title: "Coke Zero",
+      info: "We did x, y and z",
+      image: Coke,
+      link: "https://drive.google.com/file/d/1NpKLGSajxQfnbOXsV6vcLcwT_E2pKe99/preview",
+    },
   ];
 
   //Project Information Objects//
@@ -187,6 +191,24 @@ const Work = () => {
           {threeProjects.map((project) => (
             <div
               className="third"
+              key={project.id}
+              onClick={() => {
+                setModalData(project.link);
+                setOpen(true);
+              }}
+            >
+              <img src={project.image} alt="thumbnail" />
+              <div className="project-desc">
+                <p className="project-title">{project.client}</p>
+                {/* <p>{project.info}</p> */}
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="two">
+          {secondHalfProjects.map((project) => (
+            <div
+              className="half"
               key={project.id}
               onClick={() => {
                 setModalData(project.link);
