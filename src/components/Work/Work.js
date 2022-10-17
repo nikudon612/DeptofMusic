@@ -21,7 +21,7 @@ const Work = () => {
     title: "AbsoLut",
     info: "We did x, y and z",
     image: Absolut,
-    link: "https://drive.google.com/file/d/17-LWxSpoCa-gONISwRKlgfFRK3mC2Ur_/preview",
+    link: "https://player.vimeo.com/video/760586263?h=423da697cf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
   };
 
   const halfProjects = [
@@ -31,7 +31,8 @@ const Work = () => {
       title: "Nationwide theme by H.E.R.",
       info: "Unique rendition of the Nationwide theme by H.E.R.",
       image: Nationwide,
-      link: "https://drive.google.com/file/d/1yelACSoUs3uocnp-0LzZrWDB7SCNc59L/preview",
+      // link: "https://drive.google.com/file/d/1yelACSoUs3uocnp-0LzZrWDB7SCNc59L/preview",
+      link: "https://player.vimeo.com/video/760586337?h=3e5f49c708&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
       id: 2,
@@ -39,7 +40,7 @@ const Work = () => {
       title: "VoLkswagon Sheep",
       info: "We did x, y and z",
       image: Sheep,
-      link: "https://drive.google.com/file/d/1QYl129nCVxVAGeL3aP6Oa4HR7LAqAIfh/preview",
+      link: "https://player.vimeo.com/video/760586377?h=f76779a6a5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
   ];
 
@@ -58,7 +59,7 @@ const Work = () => {
       title: "Samsung Galaxy Z Fold3 5G",
       info: "We did x, y and z",
       image: cats,
-      link: "https://drive.google.com/file/d/1yYxAJXwWcYmP1_wuD6IeZmU08x7l3YaH/preview",
+      link: "https://player.vimeo.com/video/760586356?h=ca722a93c1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
       id: 2,
@@ -66,7 +67,7 @@ const Work = () => {
       title: "BudweIser",
       info: "We did x, y and z",
       image: Bud,
-      link: "https://drive.google.com/file/d/1UnjuEYGv7h5IX_YvVVbVapWFgWI7i2Gw/preview",
+      link: "https://player.vimeo.com/video/760586257?h=c4edb78d87&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
       id: 3,
@@ -74,7 +75,7 @@ const Work = () => {
       title: "T-MobILe",
       info: "I feel pretty",
       image: tmobile,
-      link: "https://drive.google.com/file/d/1ogHIsY4BcVwreUjqkNxbO0Nbrdu391YO/preview",
+      link: "https://player.vimeo.com/video/760586368?h=8e97ee49c9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
   ];
 
@@ -85,7 +86,7 @@ const Work = () => {
       title: "ZIppo",
       info: "We did x, y and z",
       image: Zippo,
-      link: "https://drive.google.com/file/d/13Pr8XVdciBgaJhI8yAcTH9WZxsrDGgx1/preview",
+      link: "https://player.vimeo.com/video/760586382?h=036d5cea08&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
       id: 2,
@@ -93,7 +94,7 @@ const Work = () => {
       title: "Coke Zero",
       info: "We did x, y and z",
       image: Coke,
-      link: "https://drive.google.com/file/d/1NpKLGSajxQfnbOXsV6vcLcwT_E2pKe99/preview",
+      link: "https://player.vimeo.com/video/760586272?h=aada2f0ef5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
   ];
 
