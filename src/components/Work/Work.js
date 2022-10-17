@@ -21,7 +21,7 @@ const Work = () => {
     title: "AbsoLut",
     info: "We did x, y and z",
     image: Absolut,
-    link: "https://player.vimeo.com/video/760586263?h=423da697cf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    link: "https://player.vimeo.com/video/760586263?h=423da697cf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?playsinline=0",
   };
 
   const halfProjects = [
@@ -132,9 +132,9 @@ const Work = () => {
         >
           <iframe
             src={modalData}
-            allow="autoplay"
             title="portfolio"
             id="iframe"
+            allow="autoplay; fullscreen; picture-in-picture"
             style={{
               // width: "80vw",
               // height: "50vh",
