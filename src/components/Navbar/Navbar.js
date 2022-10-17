@@ -113,7 +113,7 @@ const Navbar = () => {
                   >
                     About
                   </Link>
-                  {/* <Link
+                  <Link
                     to="contact"
                     smooth={true}
                     duration={750}
@@ -121,7 +121,7 @@ const Navbar = () => {
                   >
                     Contact
                   </Link>
-                  <Link
+                  {/* <Link
                     to="team"
                     smooth={true}
                     duration={750}
