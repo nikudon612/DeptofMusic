@@ -101,7 +101,14 @@ const About = () => {
             ease: "linear",
           }}
         >
-          Drop us a line. We’d love to hear from you.
+          <Link
+            to="contact"
+            smooth={true}
+            duration={1000}
+            className="drop-a-line"
+          >
+            Drop us a line. We’d love to hear from you.
+          </Link>
         </motion.div>
 
         {/* <div className="circle-con">

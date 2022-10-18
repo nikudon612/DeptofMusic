@@ -117,8 +117,6 @@ const Work = () => {
         aria-describedby="modal-modal-description"
       >
         <motion.div
-          open={open}
-          onClose={handleClose}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -131,13 +129,24 @@ const Work = () => {
           }}
         >
           <iframe
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{
+              type: "spring",
+              bounce: 0.3,
+              duration: 3,
+              delay: 0.5,
+              ease: "linear",
+            }}
+            allow="autoplay; fullscreen; picture-in-picture"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowFullScreen={true}
             src={modalData}
             title="portfolio"
             id="iframe"
-            allow="autoplay; fullscreen; picture-in-picture"
             style={{
-              // width: "80vw",
-              // height: "50vh",
               position: "absolute",
               top: "50%",
               left: "50%",
