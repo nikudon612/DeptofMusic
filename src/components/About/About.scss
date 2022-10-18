@@ -35,7 +35,7 @@
     width: 80%;
     height: 250px;
     // padding-bottom: 250px;
-    cursor: pointer;
+    cursor: default;
   }
   .title {
     font-size: 48px;
@@ -74,10 +74,13 @@
   .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    cursor: default;
+
+    // gap: 10px;
     .name {
       font-size: 28px;
       font-family: proxima-nova, sans-serif;
+      font-weight: 700;
     }
     // .email {
     //   color: #121414 !important;
@@ -89,6 +92,14 @@
     //   transition: all 0.5s ease;
     // }
   }
+}
+
+.drop-a-line {
+  font-size: 18px;
+}
+
+.drop-a-line:hover {
+  cursor: pointer;
 }
 
 #iframe {
@@ -104,7 +115,7 @@
 }
 @media only screen and (max-width: 900px) {
   .text {
-    font-size: 14px;
+    font-size: 18px;
   }
   #iframe {
     height: calc(100% - 40%);
@@ -126,7 +137,7 @@
   }
   .about {
     .text {
-      font-size: 14px;
+      font-size: 18px;
     }
     .container {
       width: 85%;
@@ -162,7 +173,7 @@
       padding-bottom: 100px;
     }
     .text {
-      font-size: 12px;
+      font-size: 16px;
     }
   }
   #iframe {
