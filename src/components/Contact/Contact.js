@@ -40,7 +40,7 @@ const Contact = () => {
             <span className="name">Michael Freeman</span>
             <span>Creative Director</span>
             <a href="mailto:michael@deptofmusic.com" className="email">
-              michael@deptofmusIc.com
+              michael@deptofmusic.com
             </a>
           </motion.div>
           <motion.div
@@ -59,7 +59,7 @@ const Contact = () => {
             <span className="name">Robert Kaplan</span>
             <span>Managing Director</span>
             <a href="mailto:robert@deptofmusic.com" className="email">
-              robert@deptofmusIc.com
+              robert@deptofmusic.com
             </a>
           </motion.div>
         </div>
