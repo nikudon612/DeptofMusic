@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="logo-info-con">
-        <img src={Eagle} alt="Camp Eagle logo" className="eagle-logo" />
+        <img src={Eagle} alt="Camp Eagle logo" className="logo" />
         <div className="location-info">
           <span className="city">Contact</span>
           <span>(617) 974-2683</span>
