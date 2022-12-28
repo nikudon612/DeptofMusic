@@ -155,6 +155,10 @@ const Work = () => {
               border: "none",
             }}
           ></iframe>
+          <div className="video-info">
+            <div>{}</div>
+            <div>{}</div>
+          </div>
         </motion.div>
       </Modal>
       {/* Video Modal */}
