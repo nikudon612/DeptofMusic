@@ -2,8 +2,8 @@
   height: 100px;
   width: 100%;
   bottom: 0;
-  // background-color: #121414;
-  background-color: rgb(46, 46, 46);
+  // background-color: rgb(46, 46, 46);
+  background-color: #759587;
   color: white;
   position: relative;
   display: flex;
@@ -101,7 +101,11 @@
 .trademark {
   color: rgb(231, 231, 231);
   font-size: 14px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
+}
+
+.trademark:hover {
+  cursor: default;
 }
 
 .logo-info-con {
