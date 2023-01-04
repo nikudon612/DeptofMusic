@@ -4,6 +4,7 @@ import Nationwide from "../../Assets/Nationwide.png";
 import Absolut from "../../Assets/absolut.png";
 import Ebay from "../../Assets/Ebay.png";
 import Ebay2 from "../../Assets/Ebay2.png";
+import Temp from "../../Assets/Temp.png";
 // import Zippo from "../../Assets/zipp.png";
 import Sheep from "../../Assets/Sheep.png";
 import Bud from "../../Assets/bud.png";
@@ -20,7 +21,7 @@ const Work = () => {
     id: 1,
     client: "Ebay",
     title: "Ebay",
-    image: Ebay2,
+    image: Ebay,
     link: "https://player.vimeo.com/video/786295523?h=aa62dcb7c7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
   };
 
