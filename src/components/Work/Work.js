@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "./Work.scss";
 import Nationwide from "../../Assets/Nationwide.png";
 import Absolut from "../../Assets/absolut.png";
-import Zippo from "../../Assets/zipp.png";
-// import Barb from "../../Assets/barbarian.png";
+import Ebay from "../../Assets/Ebay.png";
+import Ebay2 from "../../Assets/Ebay2.png";
+// import Zippo from "../../Assets/zipp.png";
 import Sheep from "../../Assets/Sheep.png";
 import Bud from "../../Assets/bud.png";
 import cats from "../../Assets/cats.png";
@@ -17,11 +18,10 @@ const Work = () => {
   //Project Information Objects//
   const featuredProject = {
     id: 1,
-    client: "AbsoLut",
-    title: "AbsoLut",
-    info: "We did x, y and z",
-    image: Absolut,
-    link: "https://player.vimeo.com/video/760586263?h=423da697cf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?playsinline=0",
+    client: "Ebay",
+    title: "Ebay",
+    image: Ebay2,
+    link: "https://player.vimeo.com/video/786295523?h=aa62dcb7c7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
   };
 
   const halfProjects = [
@@ -82,11 +82,16 @@ const Work = () => {
   const secondHalfProjects = [
     {
       id: 1,
-      client: "ZIppo",
-      title: "ZIppo",
+      // client: "ZIppo",
+      // title: "ZIppo",
+      // info: "We did x, y and z",
+      // image: Zippo,
+      // link: "https://player.vimeo.com/video/760586382?h=036d5cea08&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      client: "AbsoLut",
+      title: "AbsoLut",
       info: "We did x, y and z",
-      image: Zippo,
-      link: "https://player.vimeo.com/video/760586382?h=036d5cea08&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      image: Absolut,
+      link: "https://player.vimeo.com/video/760586263?h=423da697cf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?playsinline=0",
     },
     {
       id: 2,
